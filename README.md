@@ -19,6 +19,12 @@ The primary data source is the MTA turnstile data. Data from May 2021-Apr 2022 w
 
 **Exploratory Data Analysis:** Based on the total traffic for each station over the year, the top ten most trafficked stations were plotted visually. These top ten stations were compared against the top ten stations from Feb 2022-Apr 2022 and the same rank order of stations were found. The total traffic on weekdays versus weekends was assessed and results indicate a steep decrease in traffic on Saturdays across the year. This same analysis was also grouped by station and revealed that the top ten busiest stations stayed the same across the days of the week, with a steep decrease in traffic on Saturdays. The average distance between each gym and the top ten stations was plotted and revealed that there are four gyms within a 50 mi radius. [Google Maps was used to provide a visual assessment of the subway stations in relation to the gyms](https://www.google.com/maps/d/edit?mid=1luz-YpjC_9yySAGswIVeOk3S2JnKtuE&usp=sharing).
 
+Below is the average distance between gyms and top 10 busiest stations
+![Screen Shot 2022-10-24 at 22 13 30](https://user-images.githubusercontent.com/80511410/197533899-c127e100-4859-4e71-bc88-2fa673002f97.png)
+
+Below the stars designate the ideal locations for SparkFit to consider.
+![Screen Shot 2022-10-24 at 22 14 04](https://user-images.githubusercontent.com/80511410/197534046-afa83722-e092-4e7f-a017-3f537ff5ec00.png)
+
 ### Tools
 1) Numpy and Pandas for data cleaning, manipulation, and exploratory data analysis
 2) Matplotlib and Seaborn for plotting
